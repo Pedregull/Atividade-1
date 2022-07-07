@@ -1,0 +1,36 @@
+Algoritmo "CADASTRO DE CLIENTES E DESTINOS DE UMA AGENCIA DE VIAGENS"
+// Autor(a)    : PEDRO MIGUEL MOTTA SANTOS
+
+Var
+   destinos:vetor[1..5] de caracter
+   nomes:vetor[1..5] de caracter
+   i:inteiro
+   Cadastros:caracter
+   Dados:caracter
+   
+Inicio
+
+   // DADOS PARA CADASTRO DO DESTINO E DO CLIENTE
+   para i de 1 ate 5 faca
+      escreval("CADASTRO DO PASSAGEIRO")
+      escreva("Nome do passageiro: ")
+      leia(nomes[i])
+      escreva("Insira o Destino: ")
+      leia(destinos[i])
+   fimpara
+   // FIM DOS DADOS DE CADASTRO DO DESTINO E DO CLIENTE
+   
+    // ENTRADA DE DADOS DA CONSULTA DOS PASSAGEIROS E SEUS DESTINOS
+   escrevaL(" ")
+   escreval("CONSULTA DE DADOS")
+   escreval("PASSAGEIROS E SEUS RESPECTIVOS DESTINOS:")
+   escrevaL(" ")
+
+   //SAIDA DE DADOS DA CONSULTA DOS PASSAGEIROS E SEUS DESTINOS
+   para i de 1 ate 5 faca
+      escreval("Passageiro: ", nomes[i])
+      escreval("Destino: ", destinos[i])
+   fimpara
+
+
+Fimalgoritmo
